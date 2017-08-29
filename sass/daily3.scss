@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+   background: url(../images/cloud_02.png) repeat-x left bottom; 
+   height: 250px;
+   background-color: #448ccb;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        li {
+            float: left;
+            font-family: serif, monospace;
+            font-weight: bold;
+            text-align:center;
+            text-decoration: none;
+            font-size:24px;
+            a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 20px 20px;
+                text-decoration: none;
+                &:hover {
+                    color:#485d93;
+                    .dropmneu {
+                        display: block;
+                    }
+                }
+                .dropmneu {
+                    display: none;
+                } 
+                // .li a :hover:not(.active){
+                // background-color:#636262;
+                // }
+                // .active{
+                //     background-color:#525151;
+                // }
+            }
+        }
+    }
+}
+
