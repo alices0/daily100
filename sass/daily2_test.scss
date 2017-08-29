@@ -1,0 +1,31 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+
+.wrapper {
+    width: 100%;
+    hr {
+        color: #000;
+    }
+    .box {
+        border-right: 1px solid #000;
+        position: relative;
+        width: 49%;
+        height: 50vh;
+        display: block;
+    }
+    $top : 45%;
+    .img_01 {
+      position: absolute;
+      top:$top;
+      left: 10%;
+    }
+    .img_02 {
+        position: absolute;
+        top:$top;
+        left: 80%;
+    }
+
+}

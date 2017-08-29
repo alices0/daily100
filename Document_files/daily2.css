@@ -1,0 +1,63 @@
+@charset "UTF-8";
+＊ {
+  margin: 0px;
+  padding: 0px;
+  background-color: #c0c0c0;
+  box-sizing: border-box;
+}
+
+.container .line-separator1 {
+  width: 1px;
+  /* Line width */
+  background-color: black;
+  /* Line color */
+  height: 300px;
+  /* Override in-line if you want specific height. */
+  position: relative;
+  left: 50%;
+  top: 20px;
+}
+
+.container .middle {
+  padding: 0px;
+  height: 200px;
+  display: inline-block;
+}
+
+.container .box1 {
+  display: inline-block;
+  left: 0px;
+  margin-left: 50px;
+  width: 200px;
+  height: 200px;
+  margin: 0px;
+}
+
+.container .hr {
+  display: inline-block;
+  background-color: #696969;
+  height: 1px;
+  width: 600px;
+  border: 0px;
+}
+
+.container .box2 {
+  display: inline-block;
+  right: 0px;
+  margin-right: 50px;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.container .line-separator2 {
+  width: 1px;
+  /* Line width */
+  background-color: black;
+  /* Line color */
+  height: 300px;
+  /* Override in-line if you want specific height. */
+  position: relative;
+  left: 50%;
+  top: 20px;
+}

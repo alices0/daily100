@@ -1,0 +1,121 @@
+// .container{
+//     width: 100%;
+//     height: 100%;
+//     .box{
+//         height: 5%;
+//         margin: 45% 0%;
+//         display:block;
+//         position: relative;
+//             .middle{
+//                 font-size: 5em;
+//                 margin-top:-1em; 
+//                 z-index: 2;
+//                 position: absolute;
+//                 width: 100%;
+//                 .box1{
+//                     position: absolute;
+//                     left: 0px;
+//                 }
+//                 .box2{
+//                     position: absolute;
+//                     right: 0px;
+//                 }
+//             }
+//             .bb{
+//                 width: 100%;
+//                 margin-top: -1.2em;
+//                 position: absolute;
+//                 z-index: 1;
+//                 vertical-align: center;
+//                 border-top:1px solid #5f7;
+//             }
+//     }
+// }
+// ＊ {
+//     margin: 0px;
+//     padding: 0px;
+//     background-color:#c0c0c0;
+//     box-sizing: border-box;
+// }
+.container {
+    .line-separator1 {
+        width: 1px;
+        /* Line width */
+        background-color: black;
+        /* Line color */
+        height: 300px;
+        /* Override in-line if you want specific height. */
+        // text-align: center; //   display: block;
+        position: relative;
+        left: 50%;
+        top: 20px;
+    }
+//     .middle {
+//         padding:0px;
+//         height:200px;
+//     }
+//     .box1 {
+//     float:left;
+//     left:0px;
+//     margin-left:50px;
+//     width:200px;
+//     height:200px;
+//     margin:0px;
+//     }
+//     .hr{
+//    float:left;
+//     background-color:#696969;
+//     height:1px;
+//     width:600px;
+//     border:0px;
+//     margin:0px;
+//     padding:0px;
+// }
+//     .box2 {
+//    float:left;
+//     right:0px;
+//     margin-right:50px;
+//     width:200px;
+//     height:200px;
+//     margin:10px;}
+    .line-separator2 {
+        width: 1px;
+        /* Line width */
+        background-color: black;
+        /* Line color */
+        height: 300px;
+        /* Override in-line if you want specific height. */
+        // text-align: center; //   display: block;
+        position: relative;
+        left: 50%;
+        top: 20px;
+    }
+// }
+.body {
+    margin: 0px;
+}
+
+.box {
+    width: 100%;
+    position:relative;
+    display:block;
+    .space {
+     height: 50vh;
+    }
+    .box1 {
+       position:absolute;
+        font-size: 5em;
+        color:#b16868;
+        top:45%;
+        left:10%;
+    }
+    .box2 {
+        position:absolute;
+        font-size: 5em;
+        color:#b16868;
+        top:45%;
+        left:80%;
+    }
+    
+}
+}
